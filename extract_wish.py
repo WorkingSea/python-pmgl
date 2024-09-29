@@ -8,7 +8,7 @@ def process_wish_url(wish_url):
     return True
 
 
-# Assume we're already in the correct folder, path should be something like /HoYoPlay/games/Genshin Impact game/GenshinImpact_Data/webCaches/2.28.0.0/Cache/Cache_Data/
+# Assumes we're already in the correct folder, path should be something like /HoYoPlay/games/Genshin Impact game/GenshinImpact_Data/webCaches/2.28.0.0/Cache/Cache_Data/
 data_file = "data_2"
 
 if os.path.exists(data_file):
