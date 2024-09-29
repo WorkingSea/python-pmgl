@@ -4,7 +4,7 @@ import os
 
 def process_wish_url(wish_url):
     print(wish_url)
-    print("Link found. You can use this URL in paimon.moe")
+    print("Link found. You can use this URL in https://paimon.moe/wish/import")
     return True
 
 
